@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven_3.8.6'   // Replace with your configured Maven tool name in Jenkins
-        jdk 'JDK17'           // Replace with your configured JDK in Jenkins
+        maven 'mvn-local'   // Use your actual configured Maven tool name
+        jdk 'jdk-local'     // Use your actual configured JDK name
     }
 
     stages {
